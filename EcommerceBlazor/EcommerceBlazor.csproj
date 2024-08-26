@@ -8,7 +8,6 @@
 
     <ItemGroup>
       <Folder Include="Repository\IRepository\" />
-      <Folder Include="ViewModel\" />
       <Folder Include="wwwroot\js\" />
     </ItemGroup>
 

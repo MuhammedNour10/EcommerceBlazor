@@ -1,5 +1,6 @@
 using EcommerceBlazor.Components;
 using EcommerceBlazor.Data;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,6 +15,9 @@ builder.Services.AddDbContext<AuthDbContext>(options => options.UseSqlServer(
  builder.Configuration.GetConnectionString("AuthDbConnectionString")
 ));
 
+builder.Services.AddIdentity<IdentityUser, IdentityRole>().
+    AddEntityFrameworkStores<AuthDbContext>()
+    .AddDefaultTokenProviders();
 
 
 var app = builder.Build();
@@ -30,7 +34,9 @@ app.UseHttpsRedirection();
 
 app.UseStaticFiles();
 app.UseAntiforgery();
+app.UseAuthentication();
 
+app.UseAuthentication();
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
 
