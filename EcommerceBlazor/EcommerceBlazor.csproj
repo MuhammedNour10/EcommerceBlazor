@@ -7,7 +7,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Repository\IRepository\" />
       <Folder Include="wwwroot\js\" />
     </ItemGroup>
 
