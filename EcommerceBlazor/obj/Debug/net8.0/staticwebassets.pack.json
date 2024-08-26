@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/muhammed/Desktop/Blazor project/EcommerceBlazor/EcommerceBlazor/obj/Debug/net8.0/scopedcss/projectbundle/EcommerceBlazor.bundle.scp.css",
+      "PackagePath": "staticwebassets/EcommerceBlazor.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/muhammed/Desktop/Blazor project/EcommerceBlazor/EcommerceBlazor/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/Users/muhammed/Desktop/Blazor project/EcommerceBlazor/EcommerceBlazor/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/muhammed/Desktop/Blazor project/EcommerceBlazor/EcommerceBlazor/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/muhammed/Desktop/Blazor project/EcommerceBlazor/EcommerceBlazor/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/Users/muhammed/Desktop/Blazor project/EcommerceBlazor/EcommerceBlazor/wwwroot/images/Logo.png",
+      "PackagePath": "staticwebassets/images/Logo.png"
+    },
+    {
+      "Id": "/Users/muhammed/Desktop/Blazor project/EcommerceBlazor/EcommerceBlazor/wwwroot/images/default.png",
+      "PackagePath": "staticwebassets/images/default.png"
+    },
+    {
+      "Id": "/Users/muhammed/Desktop/Blazor project/EcommerceBlazor/EcommerceBlazor/wwwroot/images/lawn_leaf.jpg",
+      "PackagePath": "staticwebassets/images/lawn_leaf.jpg"
+    },
+    {
+      "Id": "/Users/muhammed/Desktop/Blazor project/EcommerceBlazor/EcommerceBlazor/wwwroot/images/loading.gif",
+      "PackagePath": "staticwebassets/images/loading.gif"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.EcommerceBlazor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.EcommerceBlazor.props",
+      "PackagePath": "build\\EcommerceBlazor.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.EcommerceBlazor.props",
+      "PackagePath": "buildMultiTargeting\\EcommerceBlazor.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.EcommerceBlazor.props",
+      "PackagePath": "buildTransitive\\EcommerceBlazor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,10 +1,20 @@
 using EcommerceBlazor.Components;
+using EcommerceBlazor.Data;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
+
+//add DbContext
+
+builder.Services.AddDbContext<AuthDbContext>(options => options.UseSqlServer(
+ builder.Configuration.GetConnectionString("AuthDbConnectionString")
+));
+
+
 
 var app = builder.Build();
 
