@@ -1,0 +1,73 @@
+@page "/category"
+
+@if (IsLoading)
+{
+<div class="loading-container">
+    <img src="images/loading.gif" alt="Loading..." />
+</div>
+}
+else
+{
+<div class="card">
+    <div class="card-header text-center bg-dark text-white">
+        <h1>Category List</h1>
+    </div>
+
+    <div class="card-body">
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+            </tr>
+            </thead>
+            <tbody>
+            @* Example data rendering, replace with dynamic data *@
+            <tr>
+                <td>1</td>
+                <td>Action</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Drama</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Horror</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+}
+
+@code {
+public bool IsLoading { get; set; } = false;
+
+protected override async Task OnInitializedAsync()
+{
+IsLoading = true;
+await Task.Delay(1000); // Simulate loading delay
+loadingCategory();
+IsLoading = false;
+}
+
+public void loadingCategory()
+{
+// Add logic to load categories if needed.
+}
+}
+
+
+<style>
+    .loading-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .loading-image {
+        width: 100px; /* Adjust size as needed */
+    }
+</style>
